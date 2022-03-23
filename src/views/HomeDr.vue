@@ -1,12 +1,10 @@
 <template>
-  <div class="login flex">
+  <div class="home-dr flex">
     <div class="wp-left flex">
-      <div>
-        <img src="@/assets/logo.png" alt="logo" srcset="">
-      </div>
+      <HomeDr />
     </div>
     <div class="wp-right flex">
-      <router-link to="/home">
+      <router-link to="/about">
         <div class="content-btn">
           <img src="@/assets/img/logo-g.png" alt="google" srcset="">
           <p>Login with Google</p>
@@ -17,10 +15,11 @@
 </template>
 
 <script>
+import HomeDr from '../components/DataDr.vue'
 
 export default {
-  name: 'Login',
   components: {
+    HomeDr
   }
 }
 </script>
