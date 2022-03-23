@@ -1,6 +1,6 @@
 .home
     &-dr
-        .data-dr
+        .content
             width 80%
             min-height 30rem
             margin auto
@@ -24,3 +24,42 @@
             p
                 font-size .9rem
                 padding-bottom 1rem
+        .lista-personas
+            width 55%
+            label
+                font-size 1.4rem
+                font-weight 400
+                display block
+                padding-bottom 1rem
+            input
+                border-radius 10px
+                width 100%
+                height 2.5rem
+                font-size 1rem
+                padding .5rem .5rem .5rem 1rem
+                border 1px solid rgba(#000, .5)
+                box-shadow 0px 3px 6px rgba(#000, .16)
+                &:focus-visible, &:focus
+                    outline none
+                    border 1px solid rgba(#000, .8)
+            datalist
+                position: absolute
+                max-height: 20em
+                overflow-x: hidden
+                overflow-y: auto
+                border 1px solid #707070
+                background-color: white
+                width: 100%
+                padding: .5rem 1rem
+
+            datalist option
+                cursor: pointer
+                background-color: white
+                padding: .8em 0
+                font-size 1rem
+                margin-bottom: 1px
+                
+            datalist option:hover, datalist option:focus 
+                font-weight 600
+                outline: 0 none;
+                

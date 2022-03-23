@@ -4,12 +4,18 @@
       <HomeDr />
     </div>
     <div class="wp-right flex">
-      <router-link to="/about">
-        <div class="content-btn">
-          <img src="@/assets/img/logo-g.png" alt="google" srcset="">
-          <p>Login with Google</p>
-        </div>
-      </router-link>
+      <div class="lista-personas content">
+        <label for="person-choice">Personas</label>
+        <input list="person" id="person-choice" name="person" autocomplete="off" placeholder="Marco Antonio"/>
+
+        <datalist id="person">
+            <option value="Marco Alejandro Zuñiga">Marco Alejandro Zuñiga</option>
+            <option value="Marco Antonio Galicia">Marco Antonio Galicia</option>
+            <option value="Marco Alberto Ramirez">Marco Alberto Ramirez</option>
+            <option value="Marco Álvarez Jiménez">Marco Álvarez Jiménez</option>
+            <option value="Mario Eduardo Pérez Rivera">Mario Eduardo Pérez Rivera</option>
+        </datalist>
+      </div>
     </div>
   </div>
 </template>

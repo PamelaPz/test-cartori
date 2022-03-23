@@ -1,5 +1,5 @@
 <template>
-  <div class="data-dr flex">
+  <div class="content flex">
     <div class="wp-user flex">
       <img class="img-dr" src="@/assets/img/user.jpg" alt="" srcset="">
     </div>
