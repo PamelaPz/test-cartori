@@ -1,29 +1,32 @@
+
+.home-dr, .home-paciente
+    .content
+        width 80%
+        min-height 30rem
+        margin auto
+        flex-direction column
+        justify-content flex-start
+    .wp-user
+        height 12rem
+        width 12rem
+        margin-bottom 2.5rem
+        .img-dr
+            width 100%
+            border-radius 10rem
+            border 1px solid rgba(#000, .5)
+
+    .wp-data
+        h3
+            font-weight 400
+        hr
+            width 90%
+            margin 1rem auto
+        p
+            font-size .9rem
+            padding-bottom 1rem
+
 .home
     &-dr
-        .content
-            width 80%
-            min-height 30rem
-            margin auto
-            flex-direction column
-            justify-content flex-start
-        .wp-user
-            height 12rem
-            width 12rem
-            margin-bottom 2.5rem
-            .img-dr
-                width 100%
-                border-radius 10rem
-                border 1px solid rgba(#000, .5)
-
-        .wp-data
-            h3
-                font-weight 400
-            hr
-                width 90%
-                margin 1rem auto
-            p
-                font-size .9rem
-                padding-bottom 1rem
         .lista-personas
             width 55%
             label
@@ -61,5 +64,11 @@
                 
             datalist option:hover, datalist option:focus 
                 font-weight 600
-                outline: 0 none;
-                
+                outline: 0 none
+    &-paciente
+        .transparent
+            border-color transparent
+        h2
+            font-weight 400         
+        .info-paciente
+            width 55%

@@ -1,0 +1,22 @@
+<template>
+  <div class="home-paciente flex">
+    <div class="wp-left flex">
+      <DataPaciente />
+    </div>
+    <div class="wp-right flex">
+      <div class="info-paciente content">
+        <h2>Paciente</h2>
+      </div>
+    </div>
+  </div>
+</template>
+
+<script>
+import DataPaciente from '../components/DataPaciente.vue'
+
+export default {
+  components: {
+    DataPaciente
+  }
+}
+</script>
